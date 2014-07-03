@@ -1,10 +1,9 @@
 ﻿using UnityEngine;
 
-using System;
-using System.Collections;
+
 using System.Collections.Generic;
-using System.IO;
-using System.Text;
+
+
 using fastJSON;
 
 namespace Country
@@ -29,7 +28,7 @@ namespace Country
 				public void PushAllToList ()
 				{ 
 						ListOfCountries = JSON.Instance.ToObject<List<Parametrs>> (JsonText.text);
-
+					
 				}
 
 		}

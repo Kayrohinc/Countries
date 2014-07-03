@@ -2,6 +2,7 @@
 using System.Collections;
 using Country;
 
+
 public class UnityCountryParser :CountryParser
 {
 		void Awake ()
@@ -12,6 +13,11 @@ public class UnityCountryParser :CountryParser
      
 				Texture2D temp = Resources.Load (ListOfCountries [0].code2l) as Texture2D;
 				GetComponent<GUITexture> ().texture = temp;
+
+
 		}
+
+		 
+
    
 }
